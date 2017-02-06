@@ -1,0 +1,16 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "webImpl": {
+    "host": "localhost",
+    "port": 3308,
+    "url": "",
+    "database": "webImpl",
+    "password": "rootpswd",
+    "name": "webImpl",
+    "user": "root",
+    "connector": "mysql"
+  }
+}

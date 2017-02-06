@@ -1,0 +1,56 @@
+{
+  "name": "veg_price",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id": {
+      "id": true,
+      "defaultFn": "guid",
+      "type": "string",
+      "required": true
+    },
+    "trans_date": {
+      "type": "date"
+    },
+    "master_code": {
+      "type": "string"
+    },
+    "master_name": {
+      "type": "string"
+    },
+    "detail_code": {
+      "type": "string"
+    },
+    "detail_name": {
+      "type": "string"
+    },
+    "market_code": {
+      "type": "string"
+    },
+    "market_name": {
+      "type": "string"
+    },
+    "u_price": {
+      "type": "number"
+    },
+    "m_price": {
+      "type": "number"
+    },
+    "l_price": {
+      "type": "number"
+    },
+    "avg_price": {
+      "type": "number"
+    },
+    "qty": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
